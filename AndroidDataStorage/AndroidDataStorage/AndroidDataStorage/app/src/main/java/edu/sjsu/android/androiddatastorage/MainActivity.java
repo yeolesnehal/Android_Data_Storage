@@ -56,9 +56,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SQLiteActivity.class);
         startActivity(intent);
     }
-    
-    public void finishMainActivity(View v)
-    {
-        MainActivity.this.finish();
+
+    public void exitApp(View view){
+        finish();
+        System.exit(0);
     }
+
 }

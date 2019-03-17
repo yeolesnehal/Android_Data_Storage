@@ -111,7 +111,7 @@ limitations under the License.
             android:background="@android:color/holo_orange_light"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:onClick="exitApp"
+            android:onClick="finishMainActivity"
             android:text="Close"
             android:textStyle="bold"
             android:textColor="@android:color/black" />
